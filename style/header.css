@@ -1,0 +1,97 @@
+@import url('variables.css');
+
+.welcome-message {
+    padding: 40px;
+    margin-bottom: 20px;
+
+    text-align: center;
+    flex-grow: 1;
+}
+
+.right {
+    position: absolute;
+    top: 37px;
+    right: 35px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.share-links {
+    width: 90%;
+    margin: 10px;
+
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger-menu {
+    padding: 50px;
+
+    font-size: 30px;
+    cursor: pointer;
+
+    justify-content: right;
+}
+
+.menu {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    background-color: var(--background-color);
+    color: var(--font-color);
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 20px 0;
+}
+
+.menu ul li a {
+    color: var(--font-color);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: var(--font-color);
+}
+
+.nav-button {
+    padding: 10px 20px;
+    width: 300px;
+
+    background-color: var(--background-color);
+    color: var(--font-color);
+
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: var(--section-background-color);
+}
+
+.twitter-share-button {
+    margin-right: 25px;
+    margin-top: 14px;
+    transform: scale(1.4);
+}

@@ -1,0 +1,52 @@
+@import url('variables.css');
+
+.main-page {
+    padding: 10px 10px 50px 10px;
+    width: 930px;
+
+    position: relative;
+    display: table;
+    text-align: center;
+
+    border-width: 15px;
+    border-color: var(--background-color);
+    background-color: var(--background-color);
+    border-style: solid;
+}
+
+.introduction {
+    padding: 50px 70px;
+
+    position: relative;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    
+    color: var(--font-color);
+    background-color: var(--background-color);
+}
+
+.main-page-image-link-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page-container {
+    padding: 30px;
+    gap: 10px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+    color: var(--font-color);
+}
+
+.divider {
+  width: 3px;
+  background-color: var(--section-background-color);
+  margin: 0 1rem;
+}

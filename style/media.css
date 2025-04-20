@@ -1,0 +1,71 @@
+@import url('variables.css');
+
+.video-container {
+    width: 46%;
+
+    position: relative;
+    padding-bottom: 26%;
+    transition: all 0.3s ease;
+
+    cursor: pointer;
+    margin: 1%;
+}
+
+.video-container.expanded {
+    width: 96.6%; 
+    position: relative;
+    padding-bottom: 54.5%;
+    z-index: 1;
+    margin: 1%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.video {
+    margin: 0 auto;
+}
+
+.video-click-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: transparent;
+}
+
+.small-image {
+    width: 200px;
+    height: auto;
+    transition: width 0.3s ease-in-out;
+}
+
+.large-image {
+    width: 100%;
+    height: auto;
+    transition: width 0.3s ease-in-out;
+}
+
+.smart-thumbnail {
+    display: block;
+    margin: 0 auto;
+}
+
+.works-on-smartphone {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+}

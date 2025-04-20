@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>House of Fluffy Cookie Dough</title>
+        <link href="style/styles.css" rel="stylesheet">
+        <link href="style/layout.css" rel="stylesheet">
+        <link href="style/controls.css" rel="stylesheet">
+        <link href="style/media.css" rel="stylesheet">
+        <link href="style/header.css" rel="stylesheet">
+        <link href="style/footer.css" rel="stylesheet">
+    </head>
+    
+    <body class="works-on-smartphone">
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v22.0"></script>
+
+        <header>
+            <div class="welcome-message">
+                <a href="index.html">Welcome to Fluffy Cookie Dough’s Archive!</a>
+            </div>
+            <div class="page-explanation">
+                ◀ Music ▶
+            </div>
+
+            <div class="share-links">
+                <div class="right">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://13.37.233.132/index.html"
+                       data-text="Check out this awesome page!" data-via="yourTwitterHandle" data-hashtags="hashtag1,hashtag2" data-lang="en">Tweet</a>
+                    <script async src="https://platform.twitter.com/widgets.js"></script>
+     
+                    <div class="fb-share-button" data-href="http://13.37.233.132/index.html" data-layout="button" data-size="large">
+                        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F13.37.233.132%2Findex.html&amp;src=sdkpreparse" 
+                           class="fb-xfbml-parse-ignore">Share</a>
+                    </div>      
+                </div>
+
+                <div class="hamburger-menu" onclick="toggleMenu()"> &#9776; </div>
+                <nav id="menu" class="menu">
+                    <ul>
+                        <li><a href="index.html" class="nav-button">Main Page</a></li>
+                        <li><a href="music.html" class="nav-button">Music</a></li>
+                        <li><a href="animation.html" class="nav-button">Animation</a></li>
+                        <li><a href="illust.html" class="nav-button">Illust</a></li>
+                        <li><a href="work.html" class="nav-button">Work</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <article>
+                <div class="contents-title" id="music-bgm">
+                    <h1> BGM </h1>
+                </div>
+                <div class="contents-container">
+                    <div class="video-container">
+                        <div class="video-click-overlay"></div>
+                        <iframe src="https://www.youtube.com/embed/VtJ3wO5fPq0?si=aeE0df2jiffFgIb8" allowfullscreen class="video"></iframe>
+                    </div>
+                    <div class="video-container">
+                        <div class="video-click-overlay"></div>
+                        <iframe src="https://www.youtube.com/embed/M9_Q_7TgI-Q?si=oz9WL9lHS5F4kXNR" allowfullscreen class="video"></iframe>
+                    </div>
+                    <div class="video-container">
+                        <div class="video-click-overlay"></div>
+                        <iframe src="https://www.youtube.com/embed/x6wYCWhAbiQ?si=iYc662Fbl6MMApy4" allowfullscreen class="video"></iframe>
+                    </div>
+                    <div class="video-container">
+                        <div class="video-click-overlay"></div>
+                        <iframe src="https://www.youtube.com/embed/uF6C6Q4Twyk?si=yQWXK4Jc218XOXOi" allowfullscreen class="video"></iframe>
+                    </div>
+                </div>
+
+                <div class="contents-title" id="music-song">
+                    <h1> Song </h1>
+                </div>
+                <div class="contents-container">
+                    <div class="video-container">
+                        <div class="video-click-overlay"></div>
+                        <iframe src="https://www.youtube.com/embed/A9YW3n4nKn4?si=g_VUw53dfsz7VTtc" allowfullscreen class="video"></iframe>
+                    </div>
+                    <div class="video-container">
+                        <div class="video-click-overlay"></div>
+                        <iframe src="https://www.youtube.com/embed/5jZ69groanM?si=XCPiFKa-_0-m_3Cm" allowfullscreen class="video"></iframe>
+                    </div>
+                    <div class="video-container">
+                        <div class="video-click-overlay"></div>
+                        <iframe src="https://www.youtube.com/embed/xcSS8fZUPZs?si=yXXkgW8Cv718lREE" allowfullscreen class="video"></iframe>
+                    </div>
+                    <div class="video-container">
+                        <div class="video-click-overlay"></div>
+                        <iframe src="https://www.youtube.com/embed/OGqBKkyeV94?si=v9OGl_lL-PD7P5UK" allowfullscreen class="video"></iframe>
+                    </div>
+                    <div class="video-container">
+                        <div class="video-click-overlay"></div>
+                        <iframe src="https://www.youtube.com/embed/HCn_FX1pepA?si=bId8AAiA5iRnEI3p" allowfullscreen class="video"></iframe>
+                    </div>
+                </div>
+
+                <div class="contents-title" id="music-cover">
+                    <h1> Cover </h1>
+                </div>
+                <div class="contents-container">
+                    <div class="video-container">
+                        <div class="video-click-overlay"></div>
+                        <iframe src="https://www.youtube.com/embed/25mTEWHlS7o?si=m7FBTSykpqWknJOJ" allowfullscreen class="video"></iframe>
+                    </div>
+                </div>
+                
+                <div class="disqus-containter">
+                    <div id="disqus_thread"></div>
+                    <script>
+                        var disqus_config = function () {
+                            this.page.url = window.location.href;
+                            this.page.identifier = window.location.pathname;
+                        };
+                        
+                        (function() { 
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://welcome-to-fluffy-cookie-doughs-archive.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                </div>
+            </article>
+        </main>
+
+        <footer>
+            <div class="footer-reference">
+                <a href="https://github.com/FluffyCookieDough" class="footer-reference">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png" 
+                    class="footer-reference-image" alt="GitHub">
+                </a>
+                <a href="https://www.youtube.com/@FluffyCookieDough" class="footer-reference">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" class="footer-reference-image" alt="YouTube">
+                </a>
+            </div>
+            <p> &nbsp; </p>
+            <p> All rights reserved. </p>
+            <p> Made by Fluffy Cookie Dough </a></p>
+            <p> &nbsp; </p>
+            <p> ✉: fluffycookiedough@naver.com</p>
+        </footer>
+
+        <script src="behavior/behavior.js"></script>
+    </body>
+</html>
